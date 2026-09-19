@@ -3,10 +3,11 @@
  function factoriele(n) {
     if (n === 1 || n === 0 ){
         return 1 ;
-    }else
-        var F = 1 ;
+    }else{
+        let F = 1 ;
         for (i=1 ; i <= n ; i++){
           F *= i ;  
+        }
         }
         return F  
  }
